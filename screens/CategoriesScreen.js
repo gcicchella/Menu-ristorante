@@ -12,9 +12,10 @@ function CategoriesScreen({navigation}) {
             });
         }
         return (
-            <CategoryGridTitle title={itemData.item.title}
-                               color ={itemData.item.color}
-                               onPress={pressHandler}
+            <CategoryGridTitle
+                title={itemData.item.title}
+                color ={itemData.item.color}
+                onPress={pressHandler}
             />
         );
     }
